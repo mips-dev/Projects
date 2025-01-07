@@ -1,0 +1,14 @@
+Black-Scholes Option Pricing Script
+-----------------------------------
+This script calculates European call option prices using the Black-Scholes model. It fetches the previous stock price from Yahoo Finance and allows user inputs for interest rate, time to expiry, and volatility. Strike prices are generated automatically based on the stock's price.
+
+Usage:
+
+- Enter the stock ticker (e.g., AAPL).
+
+Provide:
+- Risk-free interest rate
+- Time to expiry (in years)
+- Volatility
+
+The script outputs strike prices and corresponding option prices.
